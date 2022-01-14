@@ -1,5 +1,5 @@
 # config.yml
-media_folder: "assets/uploads"
+
 collections:
   - name: "blog"
     label: "Blog"
@@ -75,15 +75,16 @@ collections:
 # This line should *not* be indented
 publish_mode: editorial_workflow
 
-# This line should *not* be indented
-media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
-
 # These lines should *not* be indented
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 
+
 backend:
-  name: github
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
   repo: miss-strawberryjam/miss-strawberryjam.github.io/hello-world
-  branch: main
-  site_domain: objective-brahmagupta-1fb9f2.netlify.app
+  api_root: https://api.github.com
+  site_domain: cms.netlify.com
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
