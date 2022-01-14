@@ -89,5 +89,5 @@ public_folder: "/images/uploads" # The src attribute for uploaded media will beg
 backend:
   name: github
   repo: miss-strawberryjam/miss-strawberryjam.github.io/hello-world
-  branch: master
+  branch: main
   site_domain: objective-brahmagupta-1fb9f2.netlify.app
