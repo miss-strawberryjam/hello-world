@@ -85,3 +85,9 @@ media_folder: "images/uploads" # Media files will be stored in the repo under im
 # These lines should *not* be indented
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+
+backend:
+  name: github
+  repo: miss-strawberryjam/miss-strawberryjam.github.io/hello-world
+  branch: master
+  site_domain: objective-brahmagupta-1fb9f2.netlify.app
